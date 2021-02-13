@@ -1,0 +1,17 @@
+.page-container {
+  width: 100vw;
+  /* height: 100vh; */
+  position: relative;
+  top: 0;
+  transition: all 1000ms ease;
+  touch-action: none;
+}
+
+.page-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
